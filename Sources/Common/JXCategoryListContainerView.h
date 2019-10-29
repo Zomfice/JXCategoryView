@@ -108,6 +108,8 @@ typedef NS_ENUM(NSUInteger, JXCategoryListContainerType) {
  */
 @property (nonatomic, assign) CGFloat initListPercent;
 
+@property (nonatomic, strong) UIColor * itemColor;
+
 - (instancetype)init NS_UNAVAILABLE;
 - (instancetype)initWithFrame:(CGRect)frame NS_UNAVAILABLE;
 - (instancetype)initWithCoder:(NSCoder *)aDecoder NS_UNAVAILABLE;
